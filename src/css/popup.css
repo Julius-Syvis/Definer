@@ -1,0 +1,11 @@
+.title-text {
+    font-size: 16px;
+    white-space: nowrap;
+    margin: 4px;
+    padding-bottom: 8px;
+}
+
+setting {
+    display: block;
+    margin: 4px;
+}
