@@ -1,18 +1,7 @@
 let contextItems = [
     {
-        id: "function-1",
-        title: "Function 1",
-        contexts: ["selection"]
-    },
-    {
-        id: "function-2",
-        title: "Function 2",
-        contexts: ["selection"],
-        type: "separator"
-    },
-    {
-        id: "function-3",
-        title: "Function 3",
+        id: "define-selection",
+        title: "Define",
         contexts: ["selection"]
     }
 ]
@@ -20,3 +9,14 @@ let contextItems = [
 contextItems.forEach(contextItem => {
     chrome.contextMenus.create(contextItem)
 });
+
+chrome.contextMenus.onClicked.addListener((info) => {
+    if (info.menuItemId == "define-selection") {
+        let strings = (`define: ` + info.selectionText).split(' ');
+        let url = "https://www.google.com/search?"
+        strings.forEach(string => {
+            url += `q=${string}&`
+        });
+        chrome.tabs.create({ url: url });
+    }
+})
