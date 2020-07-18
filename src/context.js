@@ -12,7 +12,7 @@ contextItems.forEach(contextItem => {
 
 chrome.contextMenus.onClicked.addListener((info) => {
     if (info.menuItemId == "define-selection") {
-        let strings = (`define: ` + info.selectionText).split(' ');
+        let strings = (`define ` + info.selectionText).split(' ');
         let url = "https://www.google.com/search?"
         strings.forEach(string => {
             url += `q=${string}&`
