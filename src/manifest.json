@@ -9,7 +9,8 @@
   "permissions": [
     "contextMenus",
     "activeTab",
-    "tabs"
+    "tabs",
+    "storage"
   ],
   "background": {
     "scripts": [

@@ -18,5 +18,17 @@ chrome.contextMenus.onClicked.addListener((info) => {
             url += `q=${string}&`
         });
         chrome.tabs.create({ url: url });
+
+        chrome.storage.local.get(['history'], function (result) {
+            arr = result.history
+            if (arr == undefined || !Array.isArray(arr)) {
+                arr = []
+            }
+            arr.push(info.selectionText)
+            if (arr.length > 20) {
+                arr.shift()
+            }
+            chrome.storage.local.set({ 'history': arr })
+        })
     }
 })
