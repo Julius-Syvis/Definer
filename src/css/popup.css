@@ -5,6 +5,12 @@
     padding-bottom: 8px;
 }
 
+.scroll-box {
+    height: 80px;
+    overflow: auto;
+    border: 1px;
+}
+
 setting {
     display: block;
     margin: 4px;
