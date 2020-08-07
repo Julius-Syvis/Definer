@@ -3,6 +3,9 @@
   "name": "Default",
   "version": "0.0",
   "description": "Default description",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
   "permissions": [
     "contextMenus",
     "activeTab",
