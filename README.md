@@ -1,5 +1,7 @@
 ## Definer - a lightweight Google Chrome extension
 
+### Latest version - 1.0 (Release)
+
 Definer uses the built-in Google dictionary to speed up definition look up. This is achieved via the context menu. After selecting any text, a new entry appears in the context menu labeled `Define`. Clicking it opens a new tab with the word definition (if any exists).
 
 ### Features:
@@ -10,3 +12,7 @@ Definer uses the built-in Google dictionary to speed up definition look up. This
  * To install, follow [these](https://developer.chrome.com/extensions/getstarted#manifest) 3 steps
  * Font used for the logo - `Bernard MT`
  
+### Possible future improvements:
+ * Remove individual history items
+ * Record manual Google-Search definitions
+ * Total use counter
