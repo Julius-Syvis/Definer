@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Definer",
-  "version": "0.0",
+  "version": "1.0",
   "description": "Definer allows defining selected text via the context menu.",
   "browser_action": {
     "default_title": "Definer",
