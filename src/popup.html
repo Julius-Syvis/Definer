@@ -5,21 +5,22 @@
         Definer
     </div>
     <setting>
-        <label for="checkbox-1">Setting 1</label>
-        <span style="float: right;">
+        <label for="checkbox-1">Record history</label>
+        <span class="checkbox">
             <input type="checkbox" id="checkbox-1">
         </span>
     </setting>
     <setting>
-        <label for="checkbox-2">Setting 2</label>
-        <span style="float: right;">
+        <label for="checkbox-2">Allow duplicates</label>
+        <span class="checkbox">
             <input type="checkbox" id="checkbox-2">
         </span>
     </setting>
-    <div class="scroll-box">
-        <div id="history-list">
-            <!-- Dynamically created list goes here -->
-        </div>
+    <button class="button">
+        Clear history
+    </button>
+    <div class="scroll-box" id="history-list">
+        <!-- Dynamically created list goes here -->
     </div>
     <script src="js/popup.js"></script>
     <script src="js/define.js"></script>

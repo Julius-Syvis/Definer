@@ -1,5 +1,5 @@
 .title-text {
-    font-size: 16px;
+    font-size: 17px;
     white-space: nowrap;
     margin: 4px;
     padding-bottom: 8px;
@@ -10,7 +10,26 @@
     width: 200px;
     overflow: auto;
     border: solid;
-    border-width: 1px
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+#history-list::-webkit-scrollbar-track {
+	border-radius: 5px;
+	background-color: #F5F5F5;
+}
+
+#history-list::-webkit-scrollbar {
+	width: 12px;
+}
+
+#history-list::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #bfbfbf;
+}
+
+#history-list::-webkit-scrollbar-thumb:hover {
+    background-color: #a5a5a5;
 }
 
 .list-element {
@@ -24,7 +43,38 @@
     color: white
 }
 
+.button {
+    padding: 4px;
+    margin: 4px;
+    margin-bottom: 10px;
+    float: right;
+    font-size: 13px;
+    position: relative;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: #eeeeee;
+}
+
+.button:hover {
+    background-color: #e0e0e0;
+}
+
+.button:active {
+    background-color: #d5d5d5;
+}
+
+.button:focus {
+    outline: 0;
+}
+
+.checkbox {
+    float: right;
+    transform: scale(1.2);
+}
+
 setting {
     display: block;
     margin: 4px;
+    font-size: 14px;
+    padding-bottom: 4px;
 }
