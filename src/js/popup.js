@@ -14,7 +14,7 @@ function fillList() {
 
             let text;
             if (element.length > 20) {
-                text = element.substring(0, 20) + "..";
+                text = element.substring(0, 20) + '…';
             } else {
                 text = element;
             }
