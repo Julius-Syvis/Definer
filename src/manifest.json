@@ -15,7 +15,8 @@
   ],
   "background": {
     "scripts": [
-      "js/context.js"
+      "js/context.js",
+      "js/define.js"
     ],
     "persistent": false
   }
