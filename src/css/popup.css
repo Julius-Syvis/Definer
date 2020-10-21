@@ -1,85 +1,85 @@
 .title-text {
-    font-size: 18px;
-    font-weight: bold;
-    color: black;
-    white-space: nowrap;
-    margin: 4px;
-    padding-bottom: 8px;
-    padding-top: 6px;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  white-space: nowrap;
+  margin: 4px;
+  padding-bottom: 8px;
+  padding-top: 6px;
 }
 
 .scroll-box {
-    height: 160px;
-    width: 200px;
-    overflow: auto;
-    border: solid;
-    border-width: 1px;
-    border-radius: 5px;
+  height: 160px;
+  width: 200px;
+  overflow: auto;
+  border: solid;
+  border-width: 1px;
+  border-radius: 5px;
 }
 
 #history-list::-webkit-scrollbar-track {
-	border-radius: 5px;
-	background-color: #F5F5F5;
+  border-radius: 5px;
+  background-color: #f5f5f5;
 }
 
 #history-list::-webkit-scrollbar {
-	width: 12px;
+  width: 12px;
 }
 
 #history-list::-webkit-scrollbar-thumb {
-    border-top-left-radius: 2px;
-    border-bottom-left-radius: 2px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    background-color: #bfbfbf;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #bfbfbf;
 }
 
 #history-list::-webkit-scrollbar-thumb:hover {
-    background-color: #a5a5a5;
+  background-color: #a5a5a5;
 }
 
 .list-element {
-    padding: 6px;
-    font-size: 14px;
-    cursor: pointer;
+  padding: 6px;
+  font-size: 14px;
+  cursor: pointer;
 }
 
 .list-element:hover {
-    background-color: grey;
-    color: white
+  background-color: grey;
+  color: white;
 }
 
 .button {
-    padding: 4px;
-    margin: 4px;
-    margin-bottom: 10px;
-    float: right;
-    font-size: 13px;
-    position: relative;
-    border-radius: 5px;
-    border-width: 1px;
-    background-color: #eeeeee;
+  padding: 4px;
+  margin: 4px;
+  margin-bottom: 10px;
+  float: right;
+  font-size: 13px;
+  position: relative;
+  border-radius: 5px;
+  border-width: 1px;
+  background-color: #eeeeee;
 }
 
 .button:hover {
-    background-color: #e0e0e0;
+  background-color: #e0e0e0;
 }
 
 .button:active {
-    background-color: #d5d5d5;
+  background-color: #d5d5d5;
 }
 
 .button:focus {
-    outline: 0;
+  outline: 0;
 }
 
 .checkbox {
-    float: right;
+  float: right;
 }
 
 setting {
-    display: block;
-    margin: 4px;
-    font-size: 14px;
-    padding-bottom: 4px;
+  display: block;
+  margin: 4px;
+  font-size: 14px;
+  padding-bottom: 4px;
 }
