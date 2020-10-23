@@ -12,7 +12,7 @@ Definer uses the built-in Google dictionary to speed up definition look up. This
 ### Notes:
 
 - To install, follow [these](https://developer.chrome.com/extensions/getstarted#manifest) 3 steps
-- Font used for the logo - `Bernard MT`
+- Font used for the logo - `Kingthings Calligraphica 2`
 
 ### Possible future improvements:
 
