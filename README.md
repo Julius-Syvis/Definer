@@ -17,5 +17,4 @@ Definer uses the built-in Google dictionary to speed up definition look up. This
 ### Possible future improvements:
 
 - Remove individual history items
-- Record manual Google-Search definitions
 - Total use counter
