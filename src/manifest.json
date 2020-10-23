@@ -7,9 +7,17 @@
     "default_title": "Definer",
     "default_popup": "popup.html"
   },
-  "permissions": ["contextMenus", "activeTab", "tabs", "storage"],
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "tabs",
+    "storage",
+    "webNavigation",
+    "activeTab",
+    "https://*.google.com/"
+  ],
   "background": {
-    "scripts": ["js/context.js", "js/define.js"],
+    "scripts": ["js/context.js", "js/define.js", "js/listener.js"],
     "persistent": false
   },
   "icons": {
