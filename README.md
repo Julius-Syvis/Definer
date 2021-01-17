@@ -18,3 +18,4 @@ Definer uses the built-in Google dictionary to speed up definition look up. This
 
 - Remove individual history items
 - Total use counter
+- Variable history length
