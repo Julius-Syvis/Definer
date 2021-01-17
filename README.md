@@ -6,7 +6,7 @@ Definer uses the built-in Google dictionary to speed up definition look up. This
 
 ### Features:
 
-- Saves recently looked up definitions (up to 50 entries)
+- Saves recently looked up definitions (up to 20 entries)
 - Filters history for duplicates
 
 ### Notes:
