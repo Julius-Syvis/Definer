@@ -1,5 +1,4 @@
 // Dynamically fill history list
-
 function fillList() {
   let historyList = document.querySelector("#history-list");
 
@@ -33,7 +32,6 @@ function fillList() {
 fillList();
 
 // Load and save first checkbox state
-
 let recordHistory = document.querySelector("#checkbox-1");
 recordHistory.onclick = () => {
   state = recordHistory.checked;
@@ -49,7 +47,6 @@ chrome.storage.local.get(["record"], function (result) {
 });
 
 // Load and save second checkbox state
-
 let allowDuplicates = document.querySelector("#checkbox-2");
 allowDuplicates.onclick = () => {
   state = allowDuplicates.checked;
@@ -65,7 +62,6 @@ chrome.storage.local.get(["duplicate"], function (result) {
 });
 
 // Bind clear history button functionality
-
 let clearHistory = document.querySelector("#clear-button");
 clearHistory.onclick = () => {
   chrome.storage.local.set({ history: [] });
