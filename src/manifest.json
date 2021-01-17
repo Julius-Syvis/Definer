@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Definer",
   "version": "1.01",
-  "description": "Definer allows defining selected text via the context menu.",
+  "description": "Definer allows looking up a selected phrase via the context menu.",
   "browser_action": {
     "default_title": "Definer",
     "default_popup": "popup.html"
