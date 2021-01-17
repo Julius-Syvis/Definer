@@ -1,20 +1,9 @@
-var dictionaryCards = document.getElementsByClassName(
-  "g knavi obcontainer mod"
-);
+// This works ss of 2021-01. Might change if google changes
+// identification of defined value in the dictionary card.
 
-var searchBoxValue = document
-  .getElementsByClassName("gLFyf gsfi")[0]
-  .getAttribute("value");
-
-if (dictionaryCards.length > 0) {
-  for (var i = 0; i < dictionaryCards.length; i++) {
-    var attr = dictionaryCards[i].getAttribute("data-md");
-    if (attr == "14") {
-      var searchedPhrase = searchBoxValue
-        .split(" ")
-        .filter((word) => word != "define" && word != "Define");
-
-      save(searchedPhrase.join(" "));
-    }
-  }
-}
+let htmlSpans = document.querySelectorAll('[data-dobid="hdw"]');
+htmlSpans.forEach(function (htmlSpanElement) {
+  // Defined value found
+  let definedWord = htmlSpanElement.textContent;
+  save(definedWord);
+});
