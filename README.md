@@ -2,9 +2,7 @@
 
 ### Latest version - 1.01
 
-Definer uses the built-in Google dictionary to speed up definition look up. This is achieved via the context menu. After selecting any text, a new entry appears in the context menu labeled ![Definer Logo](src/images/16.png)`Define`. Clicking it opens a new tab with the word definition (if any exists).
-
-
+Definer uses the built-in Google dictionary to speed up definition look up. This is achieved via the context menu. After selecting any text, a new entry appears in the context menu labeled `Define`. Clicking it opens a new tab with the word definition (if any exists).
 
 ### Features:
 
