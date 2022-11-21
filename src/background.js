@@ -1,3 +1,6 @@
+import { defineInNewTab, saveDefinition } from "./define.js";
+
+// Setup context
 let contextItems = [
   {
     id: "define-selection",
@@ -12,6 +15,12 @@ contextItems.forEach((contextItem) => {
 
 chrome.contextMenus.onClicked.addListener((info) => {
   if (info.menuItemId == "define-selection") {
-    define(info.selectionText);
+    defineInNewTab(info.selectionText);
+  }
+});
+
+chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+  if (request.definedWord) {
+    saveDefinition(request.definedWord, request.definition);
   }
 });
